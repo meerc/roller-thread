@@ -1,0 +1,83 @@
+# depslib dependency file v1.0
+1638518723 source:c:\users\a041101\downloads\roller analog\i2c.c
+
+1643636653 source:c:\users\a041101\downloads\roller analog\control.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mcp4822.h"
+	"I2C.h"
+
+1643636653 "
+
+1638517276 c:\users\a041101\downloads\roller analog\mcp4822.h
+	<stdint.h>
+	<stdbool.h>
+
+1638517276 >
+
+1643636641 c:\users\a041101\downloads\roller analog\i2c.h
+
+1643869344 source:/home/pi/Downloads/Nouveau/roller analog/control.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mcp4822.h"
+	"I2C.h"
+	<bcm2835.h>
+	<sched.h>
+
+1643869346 /home/pi/Downloads/Nouveau/roller analog/mcp4822.h
+	<stdint.h>
+	<stdbool.h>
+
+1643869346 /home/pi/Downloads/Nouveau/roller analog/I2C.h
+
+1643869344 source:/home/pi/Downloads/Nouveau/roller analog/I2C.c
+	<bcm2835.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<stdint.h>
+
+1643869346 source:/home/pi/Downloads/Nouveau/roller analog/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"mcp4822.h"
+	"I2C.h"
+	<math.h>
+	<stdbool.h>
+	"control.h"
+	<bcm2835.h>
+	<sched.h>
+	"thread.h"
+
+1643869344 /home/pi/Downloads/Nouveau/roller analog/control.h
+	<stdint.h>
+	<stdbool.h>
+
+1643869346 /home/pi/Downloads/Nouveau/roller analog/thread.h
+
+1643869344 source:/home/pi/Downloads/Nouveau/roller analog/mcp4822.c
+	"mcp4822.h"
+	<stdint.h>
+	<stdbool.h>
+	<stdint.h>
+	<fcntl.h>
+	<stdio.h>
+	<unistd.h>
+	<string.h>
+	<sys/ioctl.h>
+	<linux/spi/spidev.h>
+	<math.h>
+
+1644162496 source:/home/pi/Downloads/Nouveau/roller analog/thread.c
+	<limits.h>
+	<pthread.h>
+	<sched.h>
+	<stdio.h>
+	<stdlib.h>
+	<sys/mman.h>
+	"control.h"
+
